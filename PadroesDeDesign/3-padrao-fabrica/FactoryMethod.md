@@ -23,10 +23,18 @@ O Objeto Fábrica isolado não é o padrão de projeto completo do Gang of Four 
 
 ## 🚀 Como Executar
 
-No terminal, navegue até a pasta e execute:
+Cada abordagem está isolada em seu próprio subdiretório:
 
+### 1. Objeto Fábrica (`1-simple-factory`)
 ```bash
-cd "PadroesDeDesign/3-padrao-fabrica"
+cd "PadroesDeDesign/3-padrao-fabrica/1-simple-factory"
+javac *.java
+java main
+```
+
+### 2. Padrão Factory Method (`2-factory-method`)
+```bash
+cd "PadroesDeDesign/3-padrao-fabrica/2-factory-method"
 javac *.java
 java main
 ```
