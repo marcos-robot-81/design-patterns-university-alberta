@@ -19,11 +19,11 @@ PadroesDeDesign/
 ## 🛠️ Padrões Implementados
 
 ### 0. Padrão Singleton (Criacional)
-* **Objetivo:** Garantir que uma classe possua apenas uma única instância em memória durante toda a execução da aplicação e disponibilizar um ponto de acesso global a ela.
+* **Objetivo:** Garantir que uma classe possua uma única instância em memória durante toda a execução da aplicação e disponibilizar um ponto de acesso global a ela.
 * **Cenário:** Gerenciamento centralizado com instanciação preguiçosa (*Lazy Initialization*) e construtor privado.
 
 ### 1. Padrão Adapter (Estrutural)
-* **Objetivo:** Permitir que classes com interfaces incompatíveis trabalhem juntas através de uma camada adaptadora.
+* **Objetivo:** Permitir que classes com interfaces incompatíveis trabalhem juntas por meio de uma camada adaptadora.
 * **Cenário:** Adaptar uma máquina de café legada (`OldCoffeeMachine`) com métodos antigos (`selectA()`, `selectB()`) para atender à interface moderna touchscreen (`CoffeeMachineInterface` via `CoffeeTouchscreenAdapter`).
 
 ### 2. Padrão Composite (Estrutural)
